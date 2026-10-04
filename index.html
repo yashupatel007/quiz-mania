@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Mania</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body >
+  
+
+
+  <!--Question Conatiner-->
+   <div id="container" >
+
+      <!--Intro Section-->
+
+  <div id="start">
+    <h2>Welcome To Quiz Mania!</h2>
+    <p>You have 15 seconds per question. Good luck!</p>
+    <button id="startBtn">Start Quiz</button>
+  </div>
+
+    <div id="questionContainer" class="hidden">
+
+      <p id="progress">Question 1 of 5</p>
+
+      <h2 id="question">Q1. Which Languange runs in the browser ?</h2>
+      
+      <div id="option">
+        <button>JavaScript</button>
+        <button>Java</button>
+        <button>C</button>
+        <button>C++</button>
+      </div>
+
+      <p id="timer">15s</p>
+
+    </div>
+
+    <!--Result Cnatainer-->
+    <div id="result" class="hidden">
+
+      <h2>Quiz Completed !</h2>
+      <p id="score">Score</p>
+      <button id="restart">Restart</button>
+
+    </div>
+
+   </div>
+
+</body>
+</html>
